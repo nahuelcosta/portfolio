@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+* {
+  color: #000000;
+  background: #fffafa;
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo {
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+ul {
+  font-size: 1.3em;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.idioma-header {
+  text-align: right;
+}
+
+.nav__li {
+  padding: 12px;
+  text-decoration: none;
+}
+
+/* CAMBIO COLOR CUANDO SE PASA MOUSE POR ARRIBA */
+.nav__li:hover > a {
+  color: #585858;
+}
+
+.idioma-header:hover > a {
+  color: #585858;
+}
+/*# sourceMappingURL=main.css.map */
